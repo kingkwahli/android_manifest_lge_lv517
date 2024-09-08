@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+    <remote name="vendor"
+            fetch="https://github.com"
+            revision="lineage-16.0" />
+	
+    <remote name="device"
+            fetch="https://github.com"
+            revision="lineage-16.0-test"/>
+
+    <remote name="kernel"
+            fetch="https://github.com"
+            revision="master"/>
+
+    <!--Device Trees-->
+    <project path="device/lge/lv517" name="LG-SD4XX/android_device_lge_lv517" remote="device" />
+
+
+    <!--Kernel-->
+    <project path="kernel/lge/lv517" name="LG-SD4XX/android_kernel_lge_lv517" remote="kernel" />
+
+
+    <!-- Vendor folders -->
+    <project path="vendor/lge/lv517" name="LG-SD4XX/android_vendor_lge_lv517" remote="vendor" />
+</manifest>
